@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+
+}
+
+nav.menu-lateral:hover{
+    width: 200px;
+}
+
+nav.menu-lateral{
+    width: 80px;
+    height: 100%;
+    background-color: #8498A3;
+    padding: 40px 0 40px 1%;
+    justify-content: space-between;
+    box-shadow: 3px 0 0 #46565e;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: .2s;
+}
+
+.btn-expandir{
+    width: 100%;
+    padding-left: 10px;
+
+}
+
+.btn-expandir > i{
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    cursor: pointer;
+}
+
+ul{
+    height: 100%;
+    list-style-type: none;
+
+}
+
+ul li.item-menu a{
+    color: rgb(12, 12, 12);
+    text-decoration: none;
+    font-size: 15px;
+    padding: 20px 4%;
+    display: flex;
+    line-height: 40px;
+    
+}
+
+ul li.item-menu a .txt-link{
+ 
+    margin-left: 30px;
+
+}
+
+ul li.item-menu a .icon > i{
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+ul li.item-menu:hover{
+    background-color:  #46565e;
+    
+}
+
+ul li.item-menu:hover a:hover{
+   color: aliceblue;
+    
+}
+
+ul li.item-menu{
+    transition: .2s;
+}
+
+body {
+    height: 100vh;
+    background-color: #748994;
+    display: flex;
+}
+
+main {
+    margin-left: 250px;
+    padding: 20px;
+    width: calc(100% - 250px);
+}
+
+.main-header {
+    margin-bottom: 20px;
+}
+
+.main-header nav {
+    font-size: 0.9rem;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.main-header nav a {
+    color: rgb(68, 63, 63);
+    text-decoration: none;
+}
+
+.main-header nav a:hover{
+    color: white;
+}
+
+.main-header h1 {
+    font-size: 1.8rem;
+    color: black;
+}
+
+.editais {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+
+
+.editais article {
+   background: #8aa0ac;
+   border: 1px solid #748994;
+   border-radius: 5px;
+   padding: 15px;
+   flex: 1;
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 1);
+}
+
+.editais h2 {
+    font-size: 1rem;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.editais p {
+    font-size: 0.9rem;
+    color: black;
+}
+
+.novidade-content {
+    background-color: #8aa0ac;
+    border: 1px solid #748994;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 1);
+    margin-bottom: 30px;
+}
+
+.novidade-content header {
+    background-color: #34495e;
+    color: #ffff;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+    margin: -17px -17px 16px;
+}
+
+.novidade-content h3 {
+    font-size: 1.3rem;
+}
+
+.novidade-content ul {
+    list-style: none;
+}
+
+.novidade-content ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.novidade-content ul li:last-child {
+    border-bottom: none;
+}
+
+.novidade-content ul li p {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+}
+
+.novidade-content ul li time {
+    font-size: 0.8rem;
+    color: #656868;
+}
+
+.novidade-content ul li a {
+    color: #45525a;
+    text-decoration: underline;
+}
+
+.novidade-content ul li a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.documentacoes {
+    background-color: #8aa0ac;
+    border: 1px solid #748994;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 1);
+}
+
+.documentacoes h2 {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    color: #2c3e50;
+}
+
+.documentacoes .doc-link a {
+    display: block;
+    font-size: 0.9rem;
+    color: #45525a;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.documentacoes .doc-link a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.documentacoes button {
+    background-color: #34495e;
+    color: #ffff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.documentacoes button:hover {
+    background-color: #79848f;
+}
+
+
+
+
+
+
+
+
+
