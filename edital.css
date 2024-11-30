@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+
+}
+
+nav.menu-lateral:hover{
+    width: 200px;
+}
+
+nav.menu-lateral{
+    width: 80px;
+    height: 100%;
+    background-color: #8498A3;
+    padding: 40px 0 40px 1%;
+    justify-content: space-between;
+    box-shadow: 3px 0 0 #46565e;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: .2s;
+}
+
+.btn-expandir{
+    width: 100%;
+    padding-left: 10px;
+
+}
+
+.btn-expandir > i{
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    cursor: pointer;
+}
+
+ul{
+    height: 100%;
+    list-style-type: none;
+
+}
+
+ul li.item-menu a{
+    color: rgb(12, 12, 12);
+    text-decoration: none;
+    font-size: 15px;
+    padding: 20px 4%;
+    display: flex;
+    line-height: 40px;
+    
+}
+
+ul li.item-menu a .txt-link{
+ 
+    margin-left: 30px;
+
+}
+
+ul li.item-menu a .icon > i{
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+ul li.item-menu:hover{
+    background-color:  #46565e;
+    
+}
+
+ul li.item-menu:hover a:hover{
+   color: aliceblue;
+    
+}
+
+ul li.item-menu{
+    transition: .2s;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    height: 100vh;
+    background-color: #748994;
+    padding-left: 100px;
+}
+
+#topo{
+    color: rgb(88, 88, 88);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #748994;
+    padding-bottom: 20px;
+}
+
+header {
+    padding-bottom: 20px;
+}
+
+header > p{
+    text-align: justify;
+    padding-right: 300px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-top: 20px;
+}
+
+p{
+    margin-bottom: 7px;
+    padding: 5px 10px 10px 0px;
+}
+
+.propostas .proposa {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #748994;
+}
+
+.proposal{
+    border-bottom: 2px solid #ddd;
+}
+
+.proposals > h1{
+    font-weight: 450;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.aprovar {
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.aprovar:hover{
+    background-color: #2563eb;
+}
+
+
+.rejeitar {
+    background-color: #f44336;
+    color: white;
+}
+
+.rejeitar:hover{
+    background-color: #af3229;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#ordem-btn {
+    background-color: #687b85;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 0.1px solid rgba(104, 104, 104, 0);
+}
+
+#ordem-btn > a{
+    text-decoration: none;
+    color: black;
+}
+
+#ordem-btn:hover{
+    background-color: #5c6c75;
+    transition-duration: 0.3s;
+}
+
+#source-date {
+    color: #555;
+}
