@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tela de Login</title>
     <link rel="stylesheet" href="css/sty.css">
+    <link rel="shortcut icon" href="imagens/ico.png" type="image/x-icon">
 </head>
 <body>
     <div class="container">
@@ -15,41 +16,24 @@
 
                 <img  class="img" src="imagens/FORTES.png" alt="" width="50%" style="text-align: center;">
 
-                <h2>SING UP</h2>
+                <h2>SING IN</h2>
                 <form action="#" method="POST">
                     <div class="input-group">
-                        <label  style="font-size: 12px;" for="username">Razão Social</label>
-                        <input type="text" id="username" name="username" >
-                    </div>
-                    <div class="input-group">
-                        <label  style="font-size: 12px;" for="username">CNPJ</label>
-                        <input type="text" id="username" name="username" >
-                    </div>
-
-                    <div class="input-group">
                         <label  style="font-size: 12px;" for="username">Email</label>
-                        <input type="text" id="username" name="username" >
+                        <input type="text" id="username" name="username" required>
                     </div>
                     <div class="input-group">
                         <label  style="font-size: 12px;" for="password">Senha</label>
-                        <input type="password" id="password" name="password" >
+                        <input type="password" id="password" name="password" required>
                     </div>
-
-                    <div class="input-group">
-                        <label  style="font-size: 12px;" for="password">Confirme sua senha</label>
-                        <input type="password" id="password" name="password" >
-                    </div>
-
-                    
+                    <button type="submit">Entrar</button>
                 </form>
 
-                <a href="conta.html"><button>CADASTRAR</button></a>
-
-                
+                <h6 style="text-align: center; color: gray;">Não possui uma conta? <a href="cadastrar.html">Cadastre-se</a></h6>
             </div>
         </div>
         
-
+        <!-- Div para a imagem (coluna da direita) -->
         <div class="image-side">
             <img src="imagens/predio.jpg" alt="Imagem de Login">
         </div>
